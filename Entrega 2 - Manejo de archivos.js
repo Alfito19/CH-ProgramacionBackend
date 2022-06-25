@@ -51,7 +51,11 @@ class Contenedor{
             if(error){
                 console.log('Se ha producido un error')
             } else {
+                while (Contenedor.productsList.length > 0){
+                    Contenedor.productsList.pop();
+                }
                 console.log('Se ha borrado el archivo con exito')
+                console.log(Contenedor.productsList)
             }
         }))
     }
@@ -65,4 +69,6 @@ console.log(productos.save('Celular',34));
 console.log(productos.getAll())
 console.log(productos.getById(2));
 console.log(productos.getById(5));
-console.log(productos.deleteAll())
+console.log(productos.deleteAll());
+console.log(Contenedor.productsList)
+console.log(productos.getAll())
