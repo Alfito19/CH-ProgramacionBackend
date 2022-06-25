@@ -12,7 +12,6 @@ class Usuario{
 
     addMascota(newPet){
         Usuario.Mascotas.push(newPet);
-        Usuario.Mascota++
     }
 
     countMascotas(){
