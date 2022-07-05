@@ -79,7 +79,7 @@ class Contenedor{
 
 app.get('/', (req, res) => {
     res.send({message: `[1 - En /productos veras todos los productos.] _ [2 - En /productoRandom veras un producto al azar.]`})
-    // le puse [] para que se notara la separacion de texto, no supe hacer cambio de linea 😂
+    // le puse [] para que se notara la separacion de texto, no supe hacer cambio de linea. 😂
 });
 
 app.get('/productos', (req, res) => {
