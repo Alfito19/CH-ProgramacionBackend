@@ -68,7 +68,7 @@ console.log(productos.save('Teclado',124));
 console.log(productos.save('Celular',34));
 console.log(productos.getById(2));
 console.log(productos.getById(5));
-console.log(productos.deleteById(2));
+console.log(productos.deleteById(1));
 // console.log(productos.deleteAll());
 console.log(Contenedor.productsList);
 console.log(productos.getAll());
